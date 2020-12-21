@@ -1,0 +1,140 @@
+$backgroundcolor1:white;
+$backgroundcolor2:#95a5a6;
+
+
+
+
+
+body{
+               
+               background-color: #0d2538;
+}
+.header{
+               padding: 10px;
+               margin: 10px;
+
+              
+}
+.logo{
+          color: #ced8de;
+               font-weight: 700;
+               font-size: 40px;
+               margin-left:27px;
+}
+.logo:hover{
+color: $backgroundcolor2;
+}
+.br{
+               display: flex;
+               font-weight: lighter;
+               font-size:20px;
+              position: relative;
+              left: 10px;
+}
+.logoname{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               color: $backgroundcolor1;
+               font-size: 80px;
+               font-weight: 700;
+               padding-top: 40px;
+}
+.nav{
+               display: flex;
+               margin-top: 20px;
+               
+}
+.link1,.link2{
+               color:#ced8de;
+               font-weight: 800;
+
+}
+.link1{
+position: relative;
+right: 40px;
+}
+.link1:hover{
+  color: $backgroundcolor2;
+  text-decoration: none;
+     }
+.link2:hover{
+      color: $backgroundcolor2;
+     text-decoration: none;
+}
+.link3:hover{
+ color: $backgroundcolor2;
+
+ }
+ .link4:hover{
+     color: $backgroundcolor2;
+   
+     }
+.link5:hover{
+color: $backgroundcolor2;
+
+          }
+.link2{
+               position: relative;
+               right: 10px;
+               }
+.lb{
+               color:#ced8de;
+               font-size: 25px;
+               margin: 20px 0px 0px 20px;           
+}
+.mainsec1head1 {
+              
+               display: flex;
+               align-self: flex-end;
+               justify-content: center;
+               color:$backgroundcolor1;
+}   
+.mainsec1{
+               margin: 0px;
+               padding: 0px;
+              
+}  
+.container{
+     margin: 0px 70px 0px 70px;
+     padding: 0px;
+}  
+.sub{
+     color: $backgroundcolor1;
+     display: flex;
+               align-self: flex-end;
+               justify-content: center;
+               margin-top: 40px;
+               font-size: 23px;
+}  
+.link3,.link4,.link5{
+     position: relative;
+     left: 155px;
+     color: $backgroundcolor1;
+    
+}
+.link4{
+     position: relative;
+     left: 165px;
+    
+}
+.link5{
+     position: relative;
+     left: 175px;
+}
+.ll{
+     font-style: italic;
+     color:$backgroundcolor2;
+     position: relative;
+     left: 155px;
+     margin-top: 10px;
+     font-size: 20px;
+     width: 400px;
+}
+.sp1{
+     font-weight: 500;
+     margin: 0px;
+     padding: 0px;
+}
+
+   
